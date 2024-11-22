@@ -13,7 +13,7 @@ function RegistrationForm() {
         ĐĂNG KÝ NGÀY HỘI TRẢI NGHIỆM KHOA HỌC NGAY!
       </h1>
       <form className="space-y-6">
-        {/* Họ và Tên Phụ Huynh */}
+        {/* parents name */}
         <div>
           <label className="block text-gray-700 font-semibold mb-2">
             Họ và tên Phụ huynh:
@@ -25,7 +25,7 @@ function RegistrationForm() {
           />
         </div>
 
-        {/* Email */}
+        {/* email */}
         <div>
           <label className="block text-gray-700 font-semibold mb-2">
             Email:
@@ -37,7 +37,7 @@ function RegistrationForm() {
           />
         </div>
 
-        {/* Số điện thoại */}
+        {/* phone */}
         <div>
           <label className="block text-gray-700 font-semibold mb-2">
             Số điện thoại:
@@ -49,7 +49,7 @@ function RegistrationForm() {
           />
         </div>
 
-        {/* Tên bé */}
+        {/* name child*/}
         <div>
           <label className="block text-gray-700 font-semibold mb-2">
             Họ và tên Bé:
@@ -61,7 +61,7 @@ function RegistrationForm() {
           />
         </div>
 
-        {/* Bé hiện đang học lớp */}
+        {/* grades */}
         <div>
           <label className="block text-gray-700 font-semibold mb-2">
             Bé hiện đang học lớp:
@@ -81,7 +81,7 @@ function RegistrationForm() {
           </div>
         </div>
 
-        {/* Bé đang học trường nào */}
+        {/* school */}
         <div>
           <label className="block text-gray-700 font-semibold mb-2">
             Bé đang học trường nào?
@@ -105,7 +105,7 @@ function RegistrationForm() {
           </div>
         </div>
 
-        {/* Bé yêu thích môn học nào */}
+        {/* fav subject */}
         <div>
           <label className="block text-gray-700 font-semibold mb-2">
             Bé yêu thích môn học nào (có thể chọn nhiều):
@@ -132,7 +132,7 @@ function RegistrationForm() {
           </div>
         </div>
 
-        {/* Phụ huynh biết đến ngày hội qua */}
+        {/* known from */}
         <div>
           <label className="block text-gray-700 font-semibold mb-2">
             Phụ huynh biết đến Ngày hội trải nghiệm qua:
@@ -154,7 +154,7 @@ function RegistrationForm() {
           </div>
         </div>
 
-        {/* Phụ huynh tham gia buổi */}
+        {/* exps */}
         <div>
           <label className="block text-gray-700 font-semibold mb-2">
             Phụ huynh và Bé tham gia trải nghiệm:
@@ -174,7 +174,7 @@ function RegistrationForm() {
           </div>
         </div>
 
-        {/* Đặt hẹn riêng */}
+        {/* appointment */}
         <div>
           <label className="block text-gray-700 font-semibold mb-2">
             Phụ huynh có muốn đặt hẹn riêng với giảng viên/nhà trường để trao đổi không?
@@ -194,7 +194,7 @@ function RegistrationForm() {
           </div>
         </div>
 
-        {/* Các câu hỏi quan tâm */}
+        {/* Questions */}
         <div>
           <label className="block text-gray-700 font-semibold mb-2">
             Các câu hỏi/quan tâm (nếu có) về chương trình và nhà trường:
@@ -206,7 +206,7 @@ function RegistrationForm() {
           />
         </div>
 
-        {/* Nút gửi */}
+        {/* button */}
         <motion.button
           type="submit"
           className="w-full bg-black text-white p-3 rounded-lg font-semibold hover:bg-slate-900"
